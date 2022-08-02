@@ -1,9 +1,10 @@
 <template>
-  <Home />
+  <div class="place-content-center">
+    <router-view />
+  </div>
 </template>
-
-<script setup>
-import Home from "./components/Home.vue";
+<script>
+export default {
+  name: "App",
+};
 </script>
-
-<style scoped></style>
